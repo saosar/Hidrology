@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b925db4d14644e637267b068f65c4b53 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b925db4d14644e637267b068f65c4b53" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b925db4d14644e637267b068f65c4b53 = L.map(
+                "map_b925db4d14644e637267b068f65c4b53",
+                {
+                    center: [41.6, 2.2],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d4c13a243cb1c1dbdb16f1c146f1199c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d4c13a243cb1c1dbdb16f1c146f1199c.addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+            var marker_94ae59d62e55d92aa2feecca1cd02234 = L.marker(
+                [41.6156, 2.0873],
+                {}
+            ).addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+        var popup_170d50298c9a74cd60eb4aecc649a8d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffb625cb08961494fe3acccdf62e117d = $(`<div id="html_ffb625cb08961494fe3acccdf62e117d" style="width: 100.0%; height: 100.0%;">Castellar</div>`)[0];
+                popup_170d50298c9a74cd60eb4aecc649a8d2.setContent(html_ffb625cb08961494fe3acccdf62e117d);
+            
+        
+
+        marker_94ae59d62e55d92aa2feecca1cd02234.bindPopup(popup_170d50298c9a74cd60eb4aecc649a8d2)
+        ;
+
+        
+    
+    
+            var marker_f1b2365841f37dc989305fe3be7d1b28 = L.marker(
+                [41.7811, 2.2483],
+                {}
+            ).addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+        var popup_d80703e69ed8c60cbfb61ac6169f9637 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aa9a0bd0bd967eb1d678fb10213325c = $(`<div id="html_7aa9a0bd0bd967eb1d678fb10213325c" style="width: 100.0%; height: 100.0%;">Aiguafreda</div>`)[0];
+                popup_d80703e69ed8c60cbfb61ac6169f9637.setContent(html_7aa9a0bd0bd967eb1d678fb10213325c);
+            
+        
+
+        marker_f1b2365841f37dc989305fe3be7d1b28.bindPopup(popup_d80703e69ed8c60cbfb61ac6169f9637)
+        ;
+
+        
+    
+    
+            var marker_7c162658a70e06e964ab7878af60318c = L.marker(
+                [41.5472, 2.2781],
+                {}
+            ).addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+        var popup_fcae5b9a8f9b2fabf372ee6f966013c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b8dbf7d0da49ae536fc2216c7f1f92c = $(`<div id="html_0b8dbf7d0da49ae536fc2216c7f1f92c" style="width: 100.0%; height: 100.0%;">Montornes</div>`)[0];
+                popup_fcae5b9a8f9b2fabf372ee6f966013c4.setContent(html_0b8dbf7d0da49ae536fc2216c7f1f92c);
+            
+        
+
+        marker_7c162658a70e06e964ab7878af60318c.bindPopup(popup_fcae5b9a8f9b2fabf372ee6f966013c4)
+        ;
+
+        
+    
+    
+            var marker_ae04e5dd6bb2a268721ac83bd18b0209 = L.marker(
+                [41.5325, 2.1806],
+                {}
+            ).addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+        var popup_8e0c191fc8616cb9792e24a4fa565e21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08dcd6993e77636841de7b7b6059dddd = $(`<div id="html_08dcd6993e77636841de7b7b6059dddd" style="width: 100.0%; height: 100.0%;">Santa_Perpetua</div>`)[0];
+                popup_8e0c191fc8616cb9792e24a4fa565e21.setContent(html_08dcd6993e77636841de7b7b6059dddd);
+            
+        
+
+        marker_ae04e5dd6bb2a268721ac83bd18b0209.bindPopup(popup_8e0c191fc8616cb9792e24a4fa565e21)
+        ;
+
+        
+    
+    
+            var marker_e3bd3fe44025493f74a3e100f0e2f21e = L.marker(
+                [41.4515, 2.2063],
+                {}
+            ).addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+        var popup_145d15bd8d5943c1f3b83032102f65d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24e5dc6144738651e4ea1c3bd536b642 = $(`<div id="html_24e5dc6144738651e4ea1c3bd536b642" style="width: 100.0%; height: 100.0%;">Santa_Coloma</div>`)[0];
+                popup_145d15bd8d5943c1f3b83032102f65d9.setContent(html_24e5dc6144738651e4ea1c3bd536b642);
+            
+        
+
+        marker_e3bd3fe44025493f74a3e100f0e2f21e.bindPopup(popup_145d15bd8d5943c1f3b83032102f65d9)
+        ;
+
+        
+    
+    
+            var marker_f51f3bac90ff09dabe825fb9924060e3 = L.marker(
+                [41.5801, 2.2197],
+                {}
+            ).addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+        var popup_1dfbc954637db0ca7377211ead674f0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b54f7a9a8219f04953de434ed02ed7dc = $(`<div id="html_b54f7a9a8219f04953de434ed02ed7dc" style="width: 100.0%; height: 100.0%;">Llica_de_Vall</div>`)[0];
+                popup_1dfbc954637db0ca7377211ead674f0e.setContent(html_b54f7a9a8219f04953de434ed02ed7dc);
+            
+        
+
+        marker_f51f3bac90ff09dabe825fb9924060e3.bindPopup(popup_1dfbc954637db0ca7377211ead674f0e)
+        ;
+
+        
+    
+    
+            var marker_9672f0e1da3304b1e1ce97bd24c72c09 = L.marker(
+                [41.4821, 2.1924],
+                {}
+            ).addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+        var popup_1930313d7006ffc7f8fa26918d2678e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49819cf372d7021ce9d42f72b143187a = $(`<div id="html_49819cf372d7021ce9d42f72b143187a" style="width: 100.0%; height: 100.0%;">Montcada_Reixac</div>`)[0];
+                popup_1930313d7006ffc7f8fa26918d2678e4.setContent(html_49819cf372d7021ce9d42f72b143187a);
+            
+        
+
+        marker_9672f0e1da3304b1e1ce97bd24c72c09.bindPopup(popup_1930313d7006ffc7f8fa26918d2678e4)
+        ;
+
+        
+    
+    
+            var marker_b01c18beed3da12a6e99ecbf1958b541 = L.marker(
+                [41.6848, 2.2886],
+                {}
+            ).addTo(map_b925db4d14644e637267b068f65c4b53);
+        
+    
+        var popup_963aa011f229a18521fecf94e82960c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_036c8a316c6c2b49f5f63949fbdfff18 = $(`<div id="html_036c8a316c6c2b49f5f63949fbdfff18" style="width: 100.0%; height: 100.0%;">La_Garriga</div>`)[0];
+                popup_963aa011f229a18521fecf94e82960c6.setContent(html_036c8a316c6c2b49f5f63949fbdfff18);
+            
+        
+
+        marker_b01c18beed3da12a6e99ecbf1958b541.bindPopup(popup_963aa011f229a18521fecf94e82960c6)
+        ;
+
+        
+    
+</script>
+</html>
